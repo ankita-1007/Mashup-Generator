@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MASHUP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(234, 220, 229);">
+  <div class="container my-5 py-5" style="width: 400px; " >
+    <div class="text-center">
+    <h1 > Mashup Generator </h1></div>
+  <form  name="passdata" action="." method="POST" class="my-4" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="Singer Name " class="form-label"><b>Singer Name: </b></label>
+      <input type="text" name="singer" class="form-control" id="singer" placeholder="e.g. Arijit Singh" required>
+    </div>
+    <div class="mb-3">
+      <label for="Number of videos: " class="form-label"><b>Number of Videos: </b></label>
+      <input type="number" name="number" class="form-control" id="Number" placeholder="e.g. 10" required>
+    </div>
+    <div class="mb-3">
+      <label for="Duration: " class="form-label"><b>Duration of each video: </b></label>
+      <input type="number" name="duration" class="form-control" id="duration" placeholder="e.g. 20" required>
+    </div>
+    <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"><b>Email address: </b></label>
+          <input type="email" required name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g. abc@gmail.com">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+ </body>
+</html>
