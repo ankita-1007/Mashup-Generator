@@ -14,11 +14,11 @@ For connecting .py file to our frontend : <br>
 3. email package is used.<br>
 
 <h2>3. How to use:  </h2>
-Upon running the app.py file, a link will be generated. Upon clicking, it will lead to the above shown interface.
+Upon running the app.py file, a link will be generated. Upon clicking, it will lead to the below shown interface.
 Upon filling details, and submitting , mashup will be sent to mentioned e-mail, if it exists.
 
 
-<h2> 1. Screenshot of the interface</h2>
+<h2> 4. Screenshot of the interface</h2>
 <img src="https://github.com/ankita-1007/Mashup-Generator/assets/100415671/f6e893d5-26bf-48d5-b55c-3b3515b0a81f" width="1000"> <br>
 
 
